@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e1d19362e0f48f28fef68b35c6f643, type: 3}
+  m_Name: lockedDoor
+  m_EditorClassIdentifier: 
+  description: 'You never saw such a extravagant door with beautiful ancient raised
+    pattern on it. '
+  roomName: LockedDoor
+  exits:
+  - keystring: go back
+    exitDescription: However, the door is locked with a code lock, and unfortunately,
+      you don't know the code to unlock it yet.
+    valueRoom: {fileID: 11400000, guid: d57e4f761f18f4a34a5e06f350dd908e, type: 2}
